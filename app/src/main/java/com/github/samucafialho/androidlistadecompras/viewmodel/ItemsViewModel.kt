@@ -5,7 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import androidx.room.Room
-import carreiras.com.github.listadecompras.data.ItemDatabase
+import com.github.samucafialho.androidlistadecompras.data.ItemDao
 import com.github.samucafialho.androidlistadecompras.model.ItemModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

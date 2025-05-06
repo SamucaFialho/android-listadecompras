@@ -23,7 +23,9 @@ class ItemsAdapter(private val onItemRemoved: (ItemModel) -> Unit) :
     RecyclerView.Adapter<ItemsAdapter.ItemViewHolder>() {
 
     // Lista de itens que serão exibidos no RecyclerView.
-    private var items = listOf<ItemModel>()
+    private var items = listOf<ItemModel>(){
+
+    }
 
     /**
      * Uma classe interna ViewHolder que estende RecyclerView.ViewHolder.
